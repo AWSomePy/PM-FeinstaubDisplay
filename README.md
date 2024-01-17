@@ -6,7 +6,7 @@ The sensor data is pulled from your or nearby station from the awsome project fr
 
 ![feinstaub display](https://github.com/AWSomePy/PM-FeinstaubDisplay/blob/main/pm-display-logic/images/feinstaub_display.JPG)
 
-## REST API - communication with Pixo64
+## REST API - communication with Pixoo64
 setup the great project [https://github.com/4ch1m/pixoo-rest](https://maps.sensor.community/#9/48.8676/9.4095) to interact via REST API with Pixoo64
 
 -modify `.env` setup the IP to pixoo (according the introduction) and setup port for REST
