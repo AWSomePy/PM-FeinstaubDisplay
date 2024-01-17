@@ -28,7 +28,7 @@ run the pyton script to test and verify if everthing is setup properly
 trigger the main.py periodically. Default is 1 minute, setup via crontab.
 `crontab -e`
 optional: if REST API runs on same machine, with a restart the REST starts:
-`@rebott.....`
+`@reboot.....`
 
 add this to the end of crontab file:
 `* * * * * ...python .... mani.py`
