@@ -12,7 +12,7 @@ setup the great project [https://github.com/4ch1m/pixoo-rest](https://maps.senso
 -setup port for REST
 
 ## Setup and configure Pull logic to send PM/Feinstaub Data to Pixoo64 display
-- copy python file and TTF (font for pixoo) to your linux env.
+- copy folder `pm-display-logic` including python file and TTF (font for pixoo) to your linux env.
 - install all python dependencies. Tested with python 3.7, but should work also with newer versions.
 - customize the configuration directly in python file:
 
