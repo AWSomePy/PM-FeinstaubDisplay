@@ -1,6 +1,7 @@
 # PM-FeinstaubDisplay
 
-Script und Workflow für ein Feinstaub-Display basierend auf dem Divoom Pixoo 64. Messdatenanzeige von [https://sensor.community/](https://maps.sensor.community/#9/48.8676/9.4095) Station.
+Script und Workflow für ein Feinstaub-Display basierend auf dem Divoom Pixoo 64. [https://divoom.com/products/pixoo-64](https://divoom.com/products/pixoo-64)
+Messdatenanzeige von [https://sensor.community/](https://maps.sensor.community/#9/48.8676/9.4095) Station.
 
 ![feinstaub display](https://github.com/AWSomePy/PM-FeinstaubDisplay/blob/main/pm-display-logic/images/feinstaub_display.JPG)
 
