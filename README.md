@@ -1,6 +1,6 @@
 # PM-Feinstaub Display
 
-Script and Workflow to show ParticulateMatter/Air-Quality (Feinstaub) values on a Divoom Pixoo 64 display. [https://divoom.com/products/pixoo-64](https://divoom.com/products/pixoo-64)
+Script and Workflow to show Particulate Matter/Air-Quality (Feinstaub) values on a Divoom Pixoo 64 display. [https://divoom.com/products/pixoo-64](https://divoom.com/products/pixoo-64)
 
 The sensor data is pulled from your or nearby station from the awsome project from [https://sensor.community/](https://maps.sensor.community/#9/48.8676/9.4095)
 
