@@ -10,6 +10,7 @@ Messdatenanzeige von [https://sensor.community/](https://maps.sensor.community/#
 setup the great project [https://github.com/4ch1m/pixoo-rest](https://maps.sensor.community/#9/48.8676/9.4095) to interact via REST API with Pixoo64
 
 -modify `.env` setup the IP to pixoo (according the introduction) and setup port for REST
+
 -recommended to create launcher.sh to start REST API on reboot
 `cd /home/pi/scripts/pixoo-rest/pixoo-rest/`
 
