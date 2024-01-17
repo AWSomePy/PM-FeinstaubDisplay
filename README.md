@@ -23,6 +23,7 @@ setup the great project [https://github.com/4ch1m/pixoo-rest](https://maps.senso
 `path_to_font_file = '/home/pi/scripts/pm-display/PICO-8_mod.ttf' ` pixoo64 has limited pixel density, therefore a special font is used. make sure you insert absolut path to the *.ttf file
 
 run the pyton script to test and verify if everthing is setup properly
+
 `cd /home/pi/scripts/pm-display/` (location of python file)
 
 `python main.py` or `python3 main.py`
