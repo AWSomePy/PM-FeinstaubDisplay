@@ -8,8 +8,25 @@ Messdatenanzeige von [https://sensor.community/](https://maps.sensor.community/#
 
 ## REST API - communication with Pixo64
 setup the great project [https://github.com/4ch1m/pixoo-rest](https://maps.sensor.community/#9/48.8676/9.4095) to interact via REST API with Pixoo64
--setup the IP to pixoo (according the introduction)
--setup port for REST
+
+-modify `.env` setup the IP to pixoo (according the introduction) and setup port for REST
+-recommended to create launcher.sh to start REST API on reboot
+`cd /home/pi/scripts/pixoo-rest/pixoo-rest/`
+
+`nano launcher.sh`
+
+```
+#!/bin/sh
+# launcher.sh
+# navigate to home directory, then to this directory, then execute python scrip$
+
+cd /
+cd home/pi/scripts/pixoo-rest/pixoo-rest
+/usr/local/bin/python3 app.py
+cd /
+```
+run launcher.sh to start REST API. By opening the brwoser with respective IP and Port, the swager UI should be available
+`sh launcher.sh`
 
 ## Setup and configure Pull logic to send PM/Feinstaub Data to Pixoo64 display
 - copy folder `pm-display-logic` including python file and TTF (font for pixoo) to your linux env.
