@@ -24,6 +24,8 @@ cd home/pi/scripts/pixoo-rest/pixoo-rest
 /usr/local/bin/python3 app.py
 cd /
 ```
+`CTRL + X` `Y`
+
 run launcher.sh to start REST API. By opening the brwoser with respective IP and Port, the swager UI should be available
 `sh launcher.sh`
 
@@ -56,6 +58,8 @@ optional: if REST API runs on same machine, with a restart the REST starts:
 add this to the end of crontab file:
 
 `* * * * * sleep 0; /usr/local/bin/python3 /home/pi/scripts/pm-display/main.py >> /home/pi/scripts/pm-display/logmain.log 2>&1`
+
+`CTRL + X` `Y`
 
 
 
