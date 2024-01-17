@@ -2,6 +2,7 @@
 
 Script und Workflow für ein Feinstaub-Display basierend auf dem Divoom Pixoo 64. Messdatenanzeige von [https://sensor.community/](https://maps.sensor.community/#9/48.8676/9.4095) Station.
 
+![feinstaub display](https://github.com/AWSomePy/PM-FeinstaubDisplay/blob/main/pm-display-logic/images/Particulate-matter_Feinstaub_pixoo64.jpg)
 
 ## REST API - communication with Pixo64
 setup the great project [https://github.com/4ch1m/pixoo-rest](https://maps.sensor.community/#9/48.8676/9.4095) to interact via REST API with Pixoo64
