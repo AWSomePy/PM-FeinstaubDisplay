@@ -34,7 +34,7 @@ run launcher.sh to start REST API. By opening the brwoser with respective IP and
 - install all python dependencies. Tested with python 3.7, but should work also with newer versions.
 - customize the configuration directly in python file:
 
-`sensor_station = '13463'` choose you sensor station ID on [https://maps.sensor.community/#9/48.8676/9.4095](https://maps.sensor.community/#9/48.8676/9.4095)
+`sensor_station = '12345'` choose your sensor station ID on [https://maps.sensor.community/#9/48.8676/9.4095](https://maps.sensor.community/#9/48.8676/9.4095)
 
 `rest_host = 'http://192.168.2.100:5001'` select the IP and PORT where your REST API runs. 
 
