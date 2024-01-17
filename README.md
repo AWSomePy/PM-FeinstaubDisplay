@@ -30,11 +30,16 @@ run the pyton script to test and verify if everthing is setup properly
 
 ## Run Python file periodically
 trigger the main.py periodically. Default is 1 minute, setup via crontab.
+
 `crontab -e`
+
 optional: if REST API runs on same machine, with a restart the REST starts:
-`@reboot.....`
+
+`@reboot sh /home/pi/scripts/pixoo-rest/pixoo-rest/launcher.sh >/home/pi/scripts/pixoo-rest/pixoo-rest/logslauncher/cronlog 2>&1`
 
 add this to the end of crontab file:
-`* * * * * ...python .... mani.py`
+
+`* * * * * sleep 0; /usr/local/bin/python3 /home/pi/scripts/pm-display/main.py >> /home/pi/scripts/pm-display/logmain.log 2>&1`
+
 
 
