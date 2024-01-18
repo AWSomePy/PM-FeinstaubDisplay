@@ -2,7 +2,8 @@
 
 Script and Workflow to show Particulate Matter/Air-Quality (Feinstaub) values on a Divoom Pixoo 64 display. [https://divoom.com/products/pixoo-64](https://divoom.com/products/pixoo-64). The sensor data is pulled from your or nearby station from the awesome project [https://sensor.community/](https://maps.sensor.community/#9/48.8676/9.4095).
 
-![feinstaub display](https://github.com/AWSomePy/PM-FeinstaubDisplay/blob/main/pm-display-logic/images/feinstaub_display.JPG)
+![feinstaub display](https://github.com/AWSomePy/PM-FeinstaubDisplay/blob/main/images/feinstaub_display.JPG)
+
 
 ## REST API - communication with Pixoo64
 setup the great project [https://github.com/4ch1m/pixoo-rest](https://maps.sensor.community/#9/48.8676/9.4095) to interact via REST API with Pixoo64
